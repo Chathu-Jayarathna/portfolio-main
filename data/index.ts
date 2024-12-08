@@ -89,7 +89,7 @@ export const projects = [
     des: "Developed a web app for buying and selling used cars, featuring vehicle browsing and bidding at discounted prices.",
     img: "/adp.png",
     iconLists: ["/5.png", "/8.png", "/3.png", "/23.png"],
-    link: "/ui.earth.com",
+    link: "https://github.com/Chathu-Jayarathna/Lithan-Projects/tree/main/Module%209%20-%20ADP/Project%20-%20ABC%20Car%20Portal",
   },
   {
     id: 2,
@@ -97,15 +97,15 @@ export const projects = [
     des: "Designed and developed a secure, user-friendly website for MerryMeal to streamline operations and support growth",
     img: "/dea.png",
     iconLists: ["/7.png", "/5.png", "/8.png", "/3.png", "/23.png"],
-    link: "/ui.yoom.com",
+    link: "https://github.com/Chathu-Jayarathna/Lithan-Projects/tree/main/Module%2011%20-%20DEA/Project%20-%20MerryMeals",
   },
   {
     id: 3,
     title: "Know Your Neighborhood",
     des: "Built a neighborhood info app with OAuth2 login, user profiles, and store search.",
     img: "/api.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/23.png", "/11.png"],
-    link: "/ui.aiimg.com",
+    iconLists: ["/re.svg", "/25.svg", "/23.png", "/11.png"],
+    link: "https://github.com/Chathu-Jayarathna/Lithan-Projects/tree/main/Module%2010%20-%20API/Project%20-%20Know%20Your%20Neighborhood",
   },
   {
     id: 4,
@@ -113,7 +113,7 @@ export const projects = [
     des: "Simplified e-commerce with easy signup, secure login, smooth browsing, and robust admin tools",
     img: "/cpj.png",
     iconLists: ["/5.png", "/8.png", "/3.png", "/23.png"],
-    link: "/ui.apple.com",
+    link: "https://github.com/Chathu-Jayarathna/Lithan-Projects/tree/main/Module%2012%20-%20CPL/Project%20-%20Jumpstart%20E-Commerce%20Site",
   },
    {
     id: 5,
@@ -121,7 +121,7 @@ export const projects = [
     des: "Developed a hosting services website for AAA, managing customer data for promotions and delivery",
     img: "/wfs.jpg",
     iconLists: ["/13.png", "/23.png"],
-    link: "/ui.apple.com",
+    link: "https://github.com/Chathu-Jayarathna/Lithan-Projects/tree/main/Module%208%20-%20WFS/Project%20-%20AAA%20Hosting",
   },
    {
     id: 6,
@@ -129,7 +129,7 @@ export const projects = [
     des: "Built a job portal with user registration, job search, profile editing, forums, and admin bulk emails",
     img: "/cpj.jpg",
     iconLists: ["/5.png", "/8.png", "/3.png", "/23.png"],
-    link: "/ui.apple.com",
+    link: "https://github.com/Chathu-Jayarathna/Lithan-Projects/tree/main/Module%209%20-%20ADP/Project%20-%20ABC%20Car%20Portal",
   },
 ];
 
