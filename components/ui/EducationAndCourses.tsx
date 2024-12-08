@@ -8,8 +8,8 @@ const EducationAndCourses = () => {
       institution: 'Lithan Academy, Singapore',
     },
     {
-      title: 'Higher National Diploma in Software Engineering',
-      duration: '2022 - Present',
+      title: 'Higher Diploma in Software Engineering',
+      duration: '2022 - 2024',
       institution: 'Lithan Academy, Singapore',
     },
     {
