@@ -124,9 +124,15 @@ export const BentoGridItem = ({
         <div
           className={cn(
             titleClassName,
-            "group-hover/bento:translate-x-3 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
+                        "group-hover/bento:translate-x-3 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10",
+            id === 1 && "min-h-[400px]" // Ensure min-height for id === 1
           )}
         >
+          <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
+            {description}
+          </div>
+          <div className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}></div>
+  
           {/* change the order of the title and des, font-extralight, remove text-xs text-neutral-600 dark:text-neutral-300 , change the text-color */}
           <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
             {description}
@@ -153,6 +159,19 @@ export const BentoGridItem = ({
               <EducationAndCourses />
             </div>
           )}
+
+          { id === 4 && (
+  <div className="flex items-center justify-center w-full h-full">
+    <MagicButton
+      title={copied ? "Email is Copied!" : "Copy my email address"}
+      icon={<IoCopyOutline />}
+      position="left"
+      handleClick={handleCopy}
+      otherClasses="!bg-[#161A31]"
+    />
+  </div>
+)}
+
           
           { id === 6 && (
     <div className="mt-5 relative">
