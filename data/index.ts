@@ -104,7 +104,7 @@ export const projects = [
     title: "Know Your Neighborhood",
     des: "Built a neighborhood info app with OAuth2 login, user profiles, and store search.",
     img: "/api.jpg",
-    iconLists: ["/re.svg", "/25.svg", "/23.png", "/11.png"],
+    iconLists: ["/re.svg", "/25.svg", "/8.png", "/23.png", "/11.png"],
     link: "https://github.com/Chathu-Jayarathna/Lithan-Projects/tree/main/Module%2010%20-%20API/Project%20-%20Know%20Your%20Neighborhood",
   },
   {

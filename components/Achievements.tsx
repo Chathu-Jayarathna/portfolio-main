@@ -91,7 +91,7 @@ function Achievements() {
   ];
 
   return (
-    <section id="projects" className="py-1">
+    <section id="achievements" className="py-1">
       <div className="py-20">
         <h1 className="heading">
           Achieved{" "}
