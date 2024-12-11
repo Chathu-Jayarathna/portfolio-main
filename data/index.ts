@@ -90,6 +90,7 @@ export const projects = [
     img: "/adp.png",
     iconLists: ["/5.png", "/8.png", "/3.png", "/23.png"],
     link: "https://github.com/Chathu-Jayarathna/Lithan-Projects/tree/main/Module%209%20-%20ADP/Project%20-%20ABC%20Car%20Portal",
+    newLink: "", // New link added
   },
   {
     id: 2,
@@ -98,6 +99,7 @@ export const projects = [
     img: "/dea.png",
     iconLists: ["/7.png", "/5.png", "/8.png", "/3.png", "/23.png"],
     link: "https://github.com/Chathu-Jayarathna/Lithan-Projects/tree/main/Module%2011%20-%20DEA/Project%20-%20MerryMeals",
+    newLink: "https://dea-meerymeals.vercel.app/", // New link added
   },
   {
     id: 3,
@@ -106,6 +108,7 @@ export const projects = [
     img: "/api.jpg",
     iconLists: ["/re.svg", "/25.svg", "/8.png", "/23.png", "/11.png"],
     link: "https://github.com/Chathu-Jayarathna/Lithan-Projects/tree/main/Module%2010%20-%20API/Project%20-%20Know%20Your%20Neighborhood",
+    newLink: "https://adp-kyn.vercel.app/", // New link added
   },
   {
     id: 4,
@@ -114,24 +117,28 @@ export const projects = [
     img: "/cpj.png",
     iconLists: ["/5.png", "/8.png", "/3.png", "/23.png"],
     link: "https://github.com/Chathu-Jayarathna/Lithan-Projects/tree/main/Module%2012%20-%20CPL/Project%20-%20Jumpstart%20E-Commerce%20Site",
+    newLink: "", // New link added
   },
-   {
+  {
     id: 5,
     title: "AAA Hosting",
     des: "Developed a hosting services website for AAA, managing customer data for promotions and delivery",
     img: "/wfs.jpg",
     iconLists: ["/13.png", "/23.png"],
     link: "https://github.com/Chathu-Jayarathna/Lithan-Projects/tree/main/Module%208%20-%20WFS/Project%20-%20AAA%20Hosting",
+    newLink: "", // New link added
   },
-   {
+  {
     id: 6,
     title: "ABC Jobs",
     des: "Built a job portal with user registration, job search, profile editing, forums, and admin bulk emails",
     img: "/cpj.jpg",
     iconLists: ["/5.png", "/8.png", "/3.png", "/23.png"],
     link: "https://github.com/Chathu-Jayarathna/Lithan-Projects/tree/main/Module%209%20-%20ADP/Project%20-%20ABC%20Car%20Portal",
+    newLink: "", // New link added
   },
 ];
+
 
 export const testimonials = [
   {

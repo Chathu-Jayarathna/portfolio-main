@@ -1,7 +1,6 @@
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
-
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 
@@ -19,10 +18,7 @@ const RecentProjects = () => {
               className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
               key={item.id}
             >
-              <PinContainer
-                title="Resources"
-                href={item.link}
-              >
+              <PinContainer title="Resources" href={item.link}>
                 <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                   <div
                     className="relative w-full h-full overflow-hidden lg:rounded-3xl"
@@ -66,12 +62,17 @@ const RecentProjects = () => {
                     ))}
                   </div>
 
-                  <div className="flex justify-center items-center">
-                    <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                      Github
-                    </p>
-                    <FaLocationArrow className="ms-3" color="#CBACF9" />
-                  </div>
+                  {/* Conditionally render the Visit Website button */}
+                  {item.newLink && (
+                    <a
+                      href={item.newLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs text-white bg-gradient-to-r from-[rgb(0,17,82)] via-[rgba(0,17,82,0.6)] to-[rgba(0,17,82,0.3)] px-4 py-2 rounded-lg hover:bg-gradient-to-r hover:from-[rgb(0,17,82)] hover:via-[rgba(0,17,82,0.8)] hover:to-[rgba(0,17,82,0.5)] focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 shadow-lg hover:shadow-xl transition-all ease-in-out duration-300 transform hover:scale-105 active:scale-95"
+                    >
+                      Demo
+                    </a>
+                  )}
                 </div>
               </PinContainer>
             </div>
