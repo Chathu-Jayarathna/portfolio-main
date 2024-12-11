@@ -52,12 +52,13 @@ const RecentProjects = () => {
                     {item.iconLists.map((icon, index) => (
                       <div
                         key={index}
-                        className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
+                        className="border border-white/[.2] rounded-full bg-[#95a0e116] lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center relative"
                         style={{
                           transform: `translateX(-${5 * index + 2}px)`,
                         }}
                       >
-                        <img src={icon} alt="icon5" className="p-2" />
+                        <div className="absolute inset-0 border-2 border-white rounded-full"></div> {/* Adding the background border */}
+                        <img src={icon} alt="icon5" className="p-2 relative z-10" />
                       </div>
                     ))}
                   </div>
